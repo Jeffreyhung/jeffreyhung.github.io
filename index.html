@@ -16,8 +16,7 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/scrolloverflow.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css"/>
-	
-	
+
 	<script>
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -49,7 +48,28 @@
 			background-repeat: no-repeat;
 			background-position: bottom;
 		}
-		#page1, #page2, #page3, #page4 {
+		#about {
+			background-color: #000;
+			color: #fff;
+		}
+		#education {
+			background-color: #000;
+			color: #fff;
+		}
+		#work {
+			background-color: #000;
+			color: #fff;
+		}
+		#certificate {
+			background-color: #000;
+			color: #fff;
+		}
+		
+		#project {
+			background-color: #000;
+			color: #fff;
+		}
+		#leadership {
 			background-color: #000;
 			color: #fff;
 		}
@@ -79,13 +99,9 @@
 			height: 4px;
 			color: white;
 		}	
-		.scrollable-element{
-            height: 99%;
-			width: 100%;
-            overflow-y: scroll;
-            margin: 0 auto;
-			overflow: auto;
-        }
+		.fixed-item {
+			position:absolute;
+		}
 	</style>
 </head>
 
@@ -98,7 +114,7 @@
 				<div class="line"></div>
 			</div>
 		</div>
-		<div class="section" id="page1">
+		<div class="section" id="about">
 			<div class="row">
 				<div class="col-12 col-md-3">
 					<div class="profile"> <img class="card-img-top" id="profile" src="css/Head.png"></div>
@@ -108,89 +124,214 @@
 					<h2>Master of Science in Information Science</h2>
 					<h3>&ensp; &ensp; Specialize in Information Security</h3>
 					<p>
-						Current GPA: 3.8<br>
+						Current GPA: 3.8/4.0<br>
 						Relevant Coursework:<br>
-						&ensp; • Information Security and Privacy (2017)<br>
-						&ensp; • Security Management & Computer Forensics (2018)<br>
-						&ensp; • Cryptography (2018)<br>
-						&ensp; • Network Security (2018)<br>
-						&ensp; • Developing Secure System (2018)<br>
+						&ensp; • Information Security and Privacy<br>
+						&ensp; • Security Management & Computer Forensics<br>
+						&ensp; • Cryptography<br>
+						&ensp; • Network Security<br>
+						&ensp; • Developing Secure System<br>
 					</p>
+					<br>
 					<h2>National Chung Hsing University, Taiwan </h2>
 					<h2>Bachelor in Management of Information System</h2>
 					<p>
 						Relevant Coursework:<br>
-						&ensp; • Introduction to Computer Security (2015)<br>
-						&ensp; • Information Security Practice (2015)<br>
-						&ensp; • Information Security Management (2016)
+						&ensp; • Introduction to Computer Security<br>
+						&ensp; • Information Security Practice<br>
+						&ensp; • Information Security Management<br>
 					</p>
 				</div>
-				<div class="corner_title">
-					Education
-				</div>
+			</div>
+			<div class="corner_title">
+				About Me
 			</div>
 		</div>
-		<div class="section" id="page2">
+		<div class="section" id="education">
 			<div class="row">
 				<div class="col-12 col-md-3">
-					<div class="profile"> <img class="card-img-top" id="profile" src="css/Head.png"></div>
+					<div class="profile"> <img class="card-img-top" id="profile" src="css/education.png"></div>
+				</div>
+				<div class="col-12 col-md-9">
+					<h2>University of Pittsburgh</h2>
+					<h2>Master of Science in Information Science</h2>
+					<h3>&ensp; &ensp; Specialize in Information Security</h3>
+					<p>
+						Current GPA: 3.8/4.0<br>
+						Relevant Coursework:<br>
+						&ensp; • Information Security and Privacy<br>
+						&ensp; • Security Management & Computer Forensics<br>
+						&ensp; • Cryptography<br>
+						&ensp; • Network Security<br>
+						&ensp; • Developing Secure System<br>
+					</p>
+					<br>
+					<h2>National Chung Hsing University, Taiwan </h2>
+					<h2>Bachelor in Management of Information System</h2>
+					<p>
+						Relevant Coursework:<br>
+						&ensp; • Introduction to Computer Security<br>
+						&ensp; • Information Security Practice<br>
+						&ensp; • Information Security Management<br>
+					</p>
+				</div>
+			</div>
+			<div class="corner_title">
+				Education
+			</div>
+		</div>
+		<div class="section" id="work">
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="profile"> <img class="card-img-top" id="profile" src="css/work.png"></div>
 				</div>
 				<div class="col-12 col-md-9">
 					<h2>Network Manager</h2>
 					<h3>&ensp; &ensp; IMPA Office, National Chung Hsing University, Taiwan</h3>
 					<p>
 						Jul 2016 - Jun 2017<br>
-						&ensp; • Manage Network System<br>
-						&ensp; •Maintain website, database system and NAS<br>
-						&ensp; • Assistance in Distance Education Program<br>
+						&ensp; • Manage Network System, assign and manage IP address, troubleshooting and provide technical assistance<br>
+						&ensp; • Maintain website, database system and NAS, redesign the website with HTML, CSS, JavaScript, WordPress and MySQL<br>
+						&ensp; • Assistance in Distance Education Program, provide technical assistance and support<br>
 					</p>
 				</div>
-				<div class="corner_title">
-					Work experience
-				</div>
+			</div>
+			<div class="corner_title">
+				Work experience
 			</div>
 		</div>
-		<div class="section" id="page3">
+		<div class="section" id="certificate">
 			<div class="row">
 				<div class="col-12 col-md-3">
-					<div class="profile"> <img class="card-img-top" id="profile" src="css/Head.png"></div>
+					<div class="profile"> <img class="card-img-top" id="profile" src="css/certification.png"></div>
 				</div>
 				<div class="col-12 col-md-9">
-					<h2>Certified Internet of Things Expert</h2>
-					<h3>&ensp;&ensp;GS1 EPC, Jun 2017</h3>
+					<h2>Secruity+ SY0-501</h2>
+					<h3>&ensp;&ensp;CompTIA, Sep 2018</h3>
+					<br><br>
+					<h2>Google Analytics IQ</h2>
+					<h3>&ensp;&ensp;Google, Aug 2018</h3>
 					<br><br>
 					<h2>IS-523 Resilient Accord – Exercising Continuity Plans for Cyber Incidents</h2>
 					<h3>&ensp;&ensp;FEMA EMI, Apr 2018</h3>
 					<br><br>
-					<h2>Google Analytics IQ</h2>
-					<h3>&ensp;&ensp;Google, Aug 2018</h3>
-				</div>
-				<div class="corner_title">
-					Certifications
+					<h2>Certified Internet of Things Expert</h2>
+					<h3>&ensp;&ensp;GS1 EPC, Jun 2017</h3>
 				</div>
 			</div>
+			<div class="corner_title">
+				Certifications
+			</div>
 		</div>
-		<div class="section" id="page4">
+		<div class="section" id="project">
 			<div class="row">
 				<div class="col-12 col-md-3">
-					<div class="profile"> <img class="card-img-top" id="profile" src="css/Head.png"></div>
+					<div class="profile"> <img class="card-img-top" id="profile" src="css/project.png" style="margin-top:100px;"></div>
+				</div>
+				<div class="col-12 col-md-9">
+					<div class="slide">
+						<h1>Public Key Encryption RSA Implementation</h1>
+						<h2>GitHub: https://goo.gl/thZ4nE  &ensp;&ensp;&ensp;&ensp;January 2018 - June 2018</h2>
+						<h3>
+							Implementing RSA to improve the understanding of PKI mechanism and algorithm<br>
+							•Using Java with Euclid’s Algorithm, SQM algorithm and Chinese Remainder Theorem to improve efficiency and compare runtime when facing the factoring problem of RSA
+						</h3>
+					</div>
+					<div class="slide">
+						<h1>Animal Shelter Analysis Project   (www.upitt-dbms.tk)</h1>
+						<h2>GitHub: https://goo.gl/quXuaH &ensp;&ensp;&ensp;&ensp;September 2017 - December 2017</h2>
+						<h3>
+							Organize a dataset with 25000+ data, finding relations among the data and use it to train model for prediction<br>
+							•Normalizing Data and importing into MySQL database using Python<br>
+							•Visualizing the relation and result into HTML using Fullpage.js, Canvas.js, connect to database using PHP<br>
+							•Using the known data to predict possibility of animal's outcome with certain characteristics with PHP and JavaScript
+						</h3>
+					</div>
+					<div class="slide">
+						<h1>Interactive Educational Dashboard</h1>
+						<h2>GitHub: https://goo.gl/q7bR1H  &ensp;&ensp;&ensp;&ensp;September 2017 - December 2017</h2>
+						<h3>
+							Creating an interactive website to provide teachers and TAs an interface between them and the teaching system<br>
+							•Process user study and communicate with different users to under the demands and requirements<br>
+							•Designing an interactive user interface with HTML, CSS, JavaScript and Bootstrap<br>
+							•Visualizing data efficiently with JavaScript and CanvasJS to provide easy-understanding information
+						</h3>
+					</div>
+					<div class="slide">
+						<h1>Research and Analyze in Taiwan Open Data Platform</h1>
+						<h2>GitHub: https://goo.gl/cZX7qc &ensp;&ensp;&ensp;&ensp;September 2015 - June 2016</h2>
+						<h3>
+							Using known data to create models to predict and categorize user’s input to improve efficiency<br>
+							•Segmenting Chinese Words using Java and CKIP to turn words into vocabularies<br>
+							•Using Text-Mining to remove unwanted vocabularies and find the keywords<br>
+							•Establishing models and train it using Weka with different algorithms to find the highest accuracy<br>
+							•Implement OAuth2.0 to provide user an easy way to login
+						</h3>
+					</div>
+				</div>
+			</div>
+			<div class="corner_title">
+				Academic Projects
+			</div>
+		</div>
+		<div class="section" id="leadership">
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="profile"> <img class="card-img-top" id="profile" src="css/leader.png"></div>
 				</div>
 				<div class="col-12 col-md-9">
 					<h2>President of International Student Organization</h2>
-					<h3>&ensp;&ensp;School of Computing and Information, University of Pittsburgh</h3>
-					<br><br>
+					<h3>&ensp;&ensp;School of Computing and Information, University of Pittsburgh<br>&ensp;&ensp;Oct 2017 - Present</h3>
+					<br>
 					<h2>President of  Public Addressing and Lighting Club</h2>
-					<h3>&ensp;&ensp;National Chung Hsing University</h3>
-					<br><br>
+					<h3>&ensp;&ensp;National Chung Hsing University, Taiwan<br>&ensp;&ensp;Jul 2015 – Jun 2016</h3>
+					<br>
 					<h2>Convener of 2016 Freshmen Orientation Camp</h2>
-					<h3>&ensp;&ensp;NCHU Department of Management Information Systems</h3>
-					<br><br>
+					<h3>&ensp;&ensp;Department of Management Information Systems, NCHU, Taiwan<br>&ensp;&ensp;Jun 2015 - Oct 2015</h3>
+					<br>
 					<h2>Captain of Volleyball Team</h2>
-					<h3>&ensp;&ensp;NCHU Department of Management Information Systems</h3>
+					<h3>&ensp;&ensp;Department of Management Information Systems, NCHU, Taiwan<br>&ensp;&ensp;Sep 2014 – Jun 2015</h3>
 				</div>
-				<div class="corner_title">
-					Leaderships
+			</div>
+			<div class="corner_title">
+				Leaderships
+			</div>
+		</div>
+		<div class="section" id="contact">
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="contact"> <img class="card-img-top" id="phone" src="css/phone.png" style="height: 150px; width: 150px; text-align: right;"></div>
 				</div>
+				<div class="col-12 col-md-9" style="margin-top:50px;">
+					<h2>+1-(412)-518-9685</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="contact"> <img class="card-img-top" id="mail" src="css/mail.png" style="height: 150px; width: 150px;"></div>
+				</div>
+				<div class="col-12 col-md-9" style="margin-top:50px;">
+					<h2>jeffreyhung@hotmail.com.tw</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="contact"> <img class="card-img-top" id="linkedin" src="css/linkedin.png" style="height: 150px; width: 150px;"></div>
+				</div>
+				<div class="col-12 col-md-9" style="margin-top:50px;">
+					<h2>linkedin.com/in/chi-heng-hung</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="contact"> <img class="card-img-top" id="github" src="css/github.png" style="height: 150px; width: 150px;"></div>
+				</div>
+				<div class="col-12 col-md-9" style="margin-top:50px;">
+					<h2>github.com/Jeffreyhung</h2>
+				</div>
+			</div>
+			<div class="corner_title">
+				Contact Info
 			</div>
 		</div>
 	</div>
@@ -198,29 +339,31 @@
 
 
 <!--
-
-
-Technology Skills
-Programming Language: HTML, JavaScript, CSS, Java, JSP, C++, PHP, MySQL, Python
-Tools for Info Sec: N-map, Metasploit, Wireshark, Kali-Linux
-
-
-
-Academic Projects
-Research and Analyze in Taiwan Open Data Platform Link: https://goo.gl/cZX7qc Sep 2015 - Jun 2016
-• Segmenting Chinese Words
-• Text mining
-• Establishing Prediction Models
-Interactive Educational Dashboard Link: https://goo.gl/q7bR1H Oct 2017 - Dec 2017
-• User Study on dashboard design
-• Designing user interface for visualizing data efficiently
-Animal Shelter Analysis Project Link: https://goo.gl/quXuaH Sep 2017 - Dec 2017
-• Normalizing Data and Importing into MySQL database
-• Creating relations among data
-• Predicting animal's outcome
-412-518-9685
-jeffreyhung@hotmail.com.tw
-linkedin.com/in/chi-heng-hung
-github.com/Jeffreyhung
+Academic Projects	 
+Public Key Encryption RSA Implementation	GitHub: https://goo.gl/thZ4nE
+Jan -  Jun 2018
+Implementing RSA to improve the understanding of PKI mechanism and algorithm
+•	Using Java with Euclid’s Algorithm, SQM algorithm and Chinese Remainder Theorem to improve efficiency and compare runtime when facing the
+      factoring problem of RSA
+Animal Shelter Analysis Project   (www.upitt-dbms.tk)
+GitHub: https://goo.gl/quXuaH
+Sep - Dec 2017
+Organize a dataset with 25000+ data, finding relations among the data and use it to train model for prediction
+•	Normalizing Data and importing into MySQL database using Python
+•	Visualizing the relation and result into HTML using Fullpage.js, Canvas.js, connect to database using PHP
+•	Using the known data to predict possibility of animal's outcome with certain characteristics with PHP and JavaScript
+Interactive Educational Dashboard 	GitHub: https://goo.gl/q7bR1H  
+Sep - Dec 2017
+Creating an interactive website to provide teachers and TAs an interface between them and the teaching system
+•	Process user study and communicate with different users to under the demands and requirements
+•	Designing an interactive user interface with HTML, CSS, JavaScript and Bootstrap
+•	Visualizing data efficiently with JavaScript and CanvasJS to provide easy-understanding information
+Research and Analyze in Taiwan Open Data Platform 	GitHub: https://goo.gl/cZX7qc
+Sep 2015 - Jun 2016
+Using known data to create models to predict and categorize user’s input to improve efficiency
+•	Segmenting Chinese Words using Java and CKIP to turn words into vocabularies
+•	Using Text-Mining to remove unwanted vocabularies and find the keywords
+•	Establishing models and train it using Weka with different algorithms to find the highest accuracy
+•	Implement OAuth2.0 to provide user an easy way to login
 
 -->
