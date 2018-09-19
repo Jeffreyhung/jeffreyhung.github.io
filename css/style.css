@@ -37,6 +37,10 @@
 	#contact {
 		color: #000;
 	}
+	#url {
+		height: 2em;
+		width: 2em;
+	}
 	
 	.profile {
 		top: 10px;
