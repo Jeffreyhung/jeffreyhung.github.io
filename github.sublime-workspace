@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"card",
+				"card-body"
+			],
+			[
 				"hs",
 				"hashresult2"
 			],
@@ -70,10 +82,6 @@
 			[
 				"insu",
 				"insurnaceInfo〔variable〕"
-			],
-			[
-				"re",
-				"requestRFS"
 			],
 			[
 				"delete",
@@ -168,10 +176,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/D/雜/Github/Homepage/home.html",
 			"settings":
 			{
-				"buffer_size": 13365,
+				"buffer_size": 3957,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -250,10 +258,21 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/Android_app/Constants.php",
+		"/C/xampp/htdocs/Android_app/Api.php",
+		"/C/xampp/htdocs/Android_app/test.php",
+		"/C/xampp/htdocs/Android_app/DbConnect.php",
+		"/C/xampp/htdocs/Android_app/DbOperation.php",
+		"/C/xampp/htdocs/DbOperation.php",
+		"/C/Users/Dante/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/Dante/git/EB_JSON/JSON_Processing/WebContent/index.html",
+		"/C/Users/Dante/git/EB_JSON/JSON_Processing/WebContent/Getting Started Instruction.txt",
+		"/D/課業/Pitt_4-2730 E-Business/Materials/Example.html",
+		"/C/Users/Dante/Downloads/index.html",
+		"/D/雜/Github/jeffreyhung.github.io/index.html",
 		"/D/雜/Github/jeffreyhung.github.io/LICENSE",
 		"/D/雜/Github/jeffreyhung.github.io/robot.txt",
 		"/D/雜/Github/jeffreyhung.github.io/CNAME",
-		"/D/雜/Github/jeffreyhung.github.io/index.html",
 		"/D/雜/Github/jeffreyhung.github.io/index.sublime-workspace",
 		"/C/Users/Dante/Downloads/temp.html",
 		"/C/Users/Dante/Downloads/new 1.html",
@@ -327,20 +346,21 @@
 		"/C/Users/Dante/Desktop/reward_script.lnk",
 		"/D/DSS_Final/SecuredHealthcareApp/www/js/jquery.js",
 		"/D/DSS_Final/SecuredHealthcareApp/www/spec.html",
-		"/C/Users/Dante/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
 		"/D/DSS_Final/SecuredHealthcareApp/www/insuranceedit.html",
 		"/C/Users/Dante/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
 		"/C/Users/Dante/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings"
 	],
 	"find":
 	{
-		"height": 42.4
+		"height": 29.0
 	},
 	"find_in_files":
 	{
 		"height": 119.0,
 		"where_history":
 		[
+			"<open files>",
+			""
 		]
 	},
 	"find_state":
@@ -348,6 +368,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\";\n",
+			"30%",
+			"70%",
+			"60%",
+			"40%",
+			"width=20%",
+			"<th id=",
+			"<th>",
+			"-sm",
+			"                    $('#",
+			"<div class=\"form-group row\">\n                    <label for=\"inputEmail3\" class=\"col-sm-2 col-form-label\">Name</label>\n                    <div class=\"col-sm-10\">\n                        <input type=\"text\" value=\"Test3\" id=\"name\">\n                    </div>\n                </div>",
 			"goo.gl"
 		],
 		"highlight": true,
@@ -356,6 +387,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"25%",
+			"75%",
+			"70%",
+			"30%",
+			"width:20%",
+			"<th style=\"width:80%\" id=",
+			"<th style=\"width=20%\">",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -377,30 +416,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/D/雜/Github/Homepage/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13365,
+						"buffer_size": 3957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								60
+								1678,
+								1735
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -542,7 +581,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
