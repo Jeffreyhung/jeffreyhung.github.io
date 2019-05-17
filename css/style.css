@@ -3,8 +3,8 @@
 		color: #fff;
 	}
 	div {
-		font-family: NotoSansCJK;
-		
+		/*font-family: NotoSansCJK;*/
+		font-family: sans-serif, Helvetica, Arial ;
 	}
 	h1 {
 		font-size:50px;
