@@ -11,10 +11,13 @@
 	}
 	
 	#homepage{
-		background-image: url(../pic/theme.jpg);
+		background-image: url(https://jeffreyhung.com/pic/theme.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: bottom;
+	}
+	#homepage h1{
+		font-size: 70px;
 	}
 	#about {
 		background-color: #000;
@@ -27,6 +30,9 @@
 		/*background-color: #fd9426;*/
 		background-color:  #323844;
 	}
+	#skill h3{
+		margin-left: 35px;
+	}
 	#certificate {
 		/*background-color: #fecb2e;*/
 		background-color: #4A5266;
@@ -34,6 +40,9 @@
 	#project {
 		/*background-color: #53d769;*/
 		background-color: #6A7591;
+	}
+	#project img{
+		margin-top:100px;
 	}
 	#leadership {
 		/*background-color: #147efb;*/
@@ -79,4 +88,13 @@
 	.contact_img {
 		height: 150px; 
 		width: 150px;
+	}
+	.inner_slides {
+		margin-left:5%;
+	}
+	.contact_info {
+		margin-top:50px;
+	}
+	.contact_info a{
+		color: #000;
 	}
