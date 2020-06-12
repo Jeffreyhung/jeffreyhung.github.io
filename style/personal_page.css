@@ -44,9 +44,12 @@
 	#project img{
 		margin-top:100px;
 	}
-	#leadership {
+	#activities {
 		/*background-color: #147efb;*/
 		background-color: #DCDFE5;
+		color: #000;
+	}
+	#activities a{
 		color: #000;
 	}
 	#contact {
