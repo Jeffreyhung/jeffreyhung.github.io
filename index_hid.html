@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="
-        img-src 'self' https://jeffreyhung.com https://www.google-analytics.com; 
-        script-src 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/ https://www.googletagmanager.com;  
-        style-src https://jeffreyhung.com/ https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/ https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/; 
-        font-src 'self'; 
-        object-src 'none'; media-src 'none'; child-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none';" />
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-F173PZFS31"></script>
     <script>
@@ -20,10 +12,15 @@
     </script>
     <!--End of Google Analytics -->
 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="
+        img-src 'self' https://jeffreyhung.com https://www.google-analytics.com; 
+        script-src 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/ https://www.googletagmanager.com;  
+        style-src 'self' https://jeffreyhung.com/ https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/ https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/; 
+        font-src 'self'; 
+        object-src 'none'; media-src 'none'; child-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none';" />
     <title>Jeffrey's Homepage </title>
     <link rel="Shortcut Icon" type="image/x-icon" href="icon/The_Star_white.png" />
-    <link rel="stylesheet" href="https://jeffreyhung.com/style/personal_page.css">
-    <!-- <link rel="stylesheet" href="https://jeffreyhung.com/style/personal_page.css" integrity="sha384-iFYo08hiyDj3E0ll0QpqFUztRM+nEXMhJOineIow1Fq3HJUehRiaphRfzrkpl0Ez" crossorigin="anonymous"> -->
 
     <!-- Bootstrap 5.0.0 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -33,6 +30,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.extensions.min.js" integrity="sha512-2whoeiZFzA/g6YGH/nI7iXRQlMPYLECQYLFYKXxqigVzCQYAMvQ1v+oy8TYN5ccbyeyG55mjdMjI7CQSN25B0g==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
     <!-- End of FullPage.js Libraries -->
+    <link rel="stylesheet" href="style/personal_page.css">
+    <!-- <link rel="stylesheet" href="https://jeffreyhung.com/style/personal_page.css" integrity="sha384-iFYo08hiyDj3E0ll0QpqFUztRM+nEXMhJOineIow1Fq3HJUehRiaphRfzrkpl0Ez" crossorigin="anonymous"> -->
+    
 </head>
 
 <body>
@@ -289,16 +289,18 @@
         </div>
     </div>
     <script type="text/javascript">
-    new fullpage('#fullpage', {
-        //options here
-        licenseKey: 'pobwH@p8',
-        autoScrolling: true,
-        slideNavigation: false,
-        controlArrows: true,
-        normalScrollElements: '.scrollable-element',
-        scrollBar: false
-    });
-    //methods
-    fullpage_api.setAllowScrolling(true);
+        new fullpage('#fullpage', {
+            //options here
+            licenseKey: 'pobwH@p8',
+            autoScrolling: true,
+            slideNavigation: false,
+            controlArrows: true,
+            normalScrollElements: '.scrollable-element',
+            scrollBar: false
+            //scrollHorizontally: true,
+
+        });
+        //methods
+        fullpage_api.setAllowScrolling(true);
     </script>
 </body>
