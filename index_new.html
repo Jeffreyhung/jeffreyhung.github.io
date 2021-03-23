@@ -44,33 +44,73 @@
         p {
             font-size: 20px;
         }
+        a {
+            text-decoration: none;
+            color: #f9f9f9;
+        }
+        a:hover {
+            color: #9daba7;;
+        }
         .section {
           text-align:center;
           font-size: 3em;
         }
         .content {
-          margin: 100px 100px 100px 100px;
+          margin: 100px 100px 80px 100px;
         }
         .inner_slides {
             margin: 100px;
         }
+        .slider_box {
+            border: 2px solid #f9f9f9;
+            width: 70%;
+            margin: auto;
+            box-shadow: 7px 7px 0px #595959;
+        }
+        .fp-controlArrow.fp-prev {
+            left: 0;
+        }
+        .fp-controlArrow.fp-next {
+            right: 0;
+        }
         .profile_down {
             position: absolute;
-            margin-left: auto;
-            margin-right: auto;
             left: 0;
             right: 0;
-            text-align: center;
             bottom: 20px;
+        }
+        .down_icon {
+            width: 800px;
+            height: 80px;
+            margin: auto;
+            fill: white;
+        }
+        .contact_icon {
+            height: 100px; 
+            width: 100px;
+            fill: white;
+        }
+        .profile_down .down_icon:hover {
+            fill: #9daba7;
+        }
+        .contact_link .contact_icon:hover {
+            fill: #9daba7;;
         }
         .box {
             border: 2px solid #f9f9f9;
             width: 60%;
             margin: auto;
+            box-shadow: 7px 7px 0px #595959;
         }
         .cert_box {
             border: 2px solid #f9f9f9;
             margin: auto;
+            box-shadow: 7px 7px 0px #595959;
+        }
+        .skill_box {
+            border: 2px solid #f9f9f9;
+            margin: auto;
+            box-shadow: 7px 7px 0px #595959;
         }
         .infosec_icon {
             width: 100px;
@@ -80,9 +120,8 @@
         }
         .mmr_icon {
             width: 150px;
-            height: 150px;
             margin: auto;
-            margin-top: -75px;
+            margin-top: -50px;
         }
         .pitt_icon {
             width: 120px;
@@ -95,31 +134,15 @@
             margin: auto;
             margin-top: -40px;
         }
-        .contact_icon {
-            height: 100px; 
-            width: 100px;
-        }
-        .contact_icon_path {
-            fill: #fff;
-        }
-        .contact_icon_path:hover {
-            fill: #9daba7;
-        }
-        .down_icon {
-            width: 800px;
-            height: 80px;
-            margin: auto;
-
-        }
         .profile_icon{
             width: 180px;
             height: 180px;
         }
         .content_header {
             font-size: 40px;
-        }
-        #profie {
-            margin: 500px 100px 500px 100px;
+            margin-top: 20px;
+            margin-bottom: -20px;
+            font-weight: bold;
         }
     </style>
     <!--  綠底：#cfdbdb
@@ -134,39 +157,37 @@
         <div class="section">
             <div class="content">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-2">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2 col-12">
                         <div class=""> <img class="card-img-top profile_icon" src="icon/The_Star_white.png"></div>
                     </div>
-                    <div class="col-2"></div>
-                    <div class="col-4 profile_content">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4 col-12 profile_content">
                         Jeffrey Hung
                         <h2>Security Professional</h2>
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="contact_icon">
-                            <a href="https://www.linkedin.com/in/chi-heng-hung/?locale=en_US" target="_blank">
-                                <path class="contact_icon_path" d="M334.3 311c-9.2 1.9-17.1 8.1-21.5 16.8l-2.3 4.7v357l2.8 5.7c3 6.1 7.4 10.5 14 14l4.2 2.3h359l4.6-2.3c5.5-2.7 11.3-8.3 14.2-13.7l2.2-4v-360l-2.5-4.8c-2.9-5.8-8.6-11.2-14.9-14.1l-4.6-2.1-175.5-.1c-96.5-.1-177.4.2-179.7.6zm83.5 70c7.2 3.1 14.3 11 16.6 18.5 3.9 12.3 0 26-9.6 33.6-13.4 10.5-36.2 9.6-47.8-2.1-16.7-16.6-9-45.2 14-51.7 6.9-2 20.4-1.1 26.8 1.7zm183.6 82.5c27.6 7.6 44.4 29.6 48.6 63.5.6 4.9 1 31.9 1 64.2V647l-30.2-.2-30.3-.3-.5-56.5-.5-56.5-2.4-6c-3-7.6-10.7-15.5-16.9-17.3-2.4-.8-7.6-1.3-11.5-1.3-16.3 0-29.3 12-31.8 29.3-.5 3.5-.9 29.4-.9 57.5V647h-60V465h59.9l.3 12.7.3 12.7 5.4-6.7c8.7-11 20-18 33.9-21.2 8.3-1.8 27-1.3 35.6 1zM432 556v91h-60V465h60v91z" />
-                            </a>
-                        </svg>
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="contact_icon">
-                            <a href="https://github.com/Jeffreyhung" target="_blank">
-                                <path class="contact_icon_path" d="M410.2 362.1c-3.3 7.6-4.6 15.1-4.5 25.4.1 5.5.8 12.3 1.6 15.2l1.4 5.2-3.3 3.2c-4.3 4.1-9.7 15.2-12.4 25.4-4.1 15-3.8 45.4.6 61.2.6 2.1.3 2.3-3.7 2.4h-4.4l5 1.4c4.4 1.2 8.5 4.3 8.5 6.5 0 .4-5.3 1.1-11.7 1.5-16.3.9-36.9 3.3-48.8 5.6-10.4 2-24.8 5.9-24.2 6.6.3.2 4.4-.5 9.3-1.6 18.1-4 43.4-7.3 71.1-9.4 5.3-.4 5.3-.4 7.7 3.7 6.2 10.6 17.2 19.7 32.1 26.7 8.9 4.2 26.4 9.1 36.8 10.4 3.1.4 5.7 1 5.7 1.3 0 .3-1.5 2.2-3.4 4.2-3.5 3.6-7.9 11.4-9.1 16.1-.6 2.3-1.6 2.8-9.4 4.8-10.3 2.5-12.2 2.6-18.8.6-7-2.1-12-6-20.9-16.5-11.4-13.4-19.4-17.9-29.5-16.5-3.9.5-4.7 1-4.2 2.3.9 2.6 4.4 6.2 8.7 8.9 6.4 4.1 9.4 8.2 13.3 18.1 8.1 21 22.5 29.3 48.4 27.9l10.9-.6v17.4c0 21.2-.8 23.9-8.1 28.6-5.6 3.5-7.7 6.5-6 8.2 1.9 1.9 12.4 2 18.4.3 7.9-2.3 13-7.3 15.2-15.1 1.6-5.2 1.7-8 .9-22-1.4-25.7-.8-34.3 2.9-37.3.9-.8 1.2 1.3 1.3 9.1 0 5.6.2 19.4.5 30.7.5 22.9.1 25.2-5.6 34-1.9 3-3.5 6.5-3.5 7.7 0 2.1.4 2.3 5.4 2.3 3 0 6.7-.5 8.3-1.1 3.5-1.3 9-6.5 11-10.4 4.2-8 4.7-12 4.9-43.9.2-29 .7-34.6 3-32.3 1.3 1.3 2.3 16.7 2.4 37.2.1 30 2.7 40.6 11.8 47 3.5 2.4 5.5 3 11.2 3.3 6.7.4 7 .3 7-1.9 0-1.2-1.8-5-3.9-8.3-5.8-8.9-6.6-14.8-5.7-43.1.4-12.6 1.1-24.8 1.5-27l.7-4 1.6 4.2c2.7 6.6 3.1 12.8 1.8 30.5-1.3 18-.5 26.2 2.8 30.8 5.6 7.6 18.3 13.2 25.2 11.1 2.1-.6 4.4-1.8 5.1-2.7 1.2-1.4.6-2.3-4.9-7.3-8.9-8.1-9.4-10.3-9-44.8.3-31.3.1-33-7.8-43.6l-5.3-7.2 5.2-.8c23-3.6 36.6-8.2 48.6-16.1 7.9-5.3 16.7-14.4 20.2-21.1l2.3-4.3 7.1.4c14.9 1.1 35.7 3.7 55.7 7 21.5 3.5 23.5 3.8 22.6 2.9-2.3-2.3-39.7-8.5-63.3-10.4-20.6-1.8-21.5-2-21.5-4.1 0-3.1 3.1-4 15.7-4.6 12.9-.7 29.7.5 55.6 3.9 17 2.3 20 2.1 9.2-.7-11-2.8-35.5-4.6-64-4.6-6 0-11.6-.4-12.3-.9-1.1-.7-1.1-2.2.2-8.7 5.9-31.5-.4-64.6-15.6-81.9l-4-4.5 1.1-5c2.1-9.8.7-25.4-3.2-36.5-1.2-3.4-1.9-4-4.6-4.3-4.3-.4-17.8 2.3-23.6 4.8-2.5 1.1-7.1 3.7-10.3 5.8-11.9 8.1-15.8 8.7-31.2 5.2-6.4-1.5-12.3-2-24.2-2-16.9 0-26.3 1-40 4.1l-8.7 2-6.2-4.1c-13.1-9-26.5-14.4-38.5-15.6l-6.4-.7-1.8 4.4z" />
-                            </a>
-                        </svg>
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="contact_icon">
-                            <a href="mailto:jeffrey@jeffreyhung.com" target="_blank">
-                                <path class="contact_icon_path" d="M279.5 357.9c1.1 1 53.9 41.8 117.3 90.5L512 537l115.3-88.6c63.3-48.7 116.1-89.5 117.2-90.5 1.9-1.9-2.2-1.9-232.5-1.9s-234.4 0-232.5 1.9zM265 512.7v141.8l80-80c44-44 80-80.3 80-80.6 0-.5-157.6-122.1-159.2-122.7-.4-.2-.8 63.5-.8 141.5zM678.5 432.1c-43.4 33.5-79.1 61.2-79.2 61.6-.2.5 35.7 36.8 79.7 80.8l80 80V512.7c0-77.9-.3-141.7-.7-141.6-.5 0-36.3 27.5-79.8 61z M358.9 586.6L277.5 668h469l-81.4-81.4-81.5-81.5-10 7.8c-5.6 4.3-20.7 16-33.6 26-12.9 9.9-24.5 18.4-25.7 18.7-1.3.3-3.3.3-4.5 0-1.3-.3-12.9-8.8-25.8-18.7-12.9-10-28-21.7-33.6-26l-10-7.8-81.5 81.5z" />
-                            </a>
-                        </svg>
+                        <a href="https://www.linkedin.com/in/chi-heng-hung/?locale=en_US" target="_blank" class="contact_link">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="contact_icon">
+                                <path d="M334.3 311c-9.2 1.9-17.1 8.1-21.5 16.8l-2.3 4.7v357l2.8 5.7c3 6.1 7.4 10.5 14 14l4.2 2.3h359l4.6-2.3c5.5-2.7 11.3-8.3 14.2-13.7l2.2-4v-360l-2.5-4.8c-2.9-5.8-8.6-11.2-14.9-14.1l-4.6-2.1-175.5-.1c-96.5-.1-177.4.2-179.7.6zm83.5 70c7.2 3.1 14.3 11 16.6 18.5 3.9 12.3 0 26-9.6 33.6-13.4 10.5-36.2 9.6-47.8-2.1-16.7-16.6-9-45.2 14-51.7 6.9-2 20.4-1.1 26.8 1.7zm183.6 82.5c27.6 7.6 44.4 29.6 48.6 63.5.6 4.9 1 31.9 1 64.2V647l-30.2-.2-30.3-.3-.5-56.5-.5-56.5-2.4-6c-3-7.6-10.7-15.5-16.9-17.3-2.4-.8-7.6-1.3-11.5-1.3-16.3 0-29.3 12-31.8 29.3-.5 3.5-.9 29.4-.9 57.5V647h-60V465h59.9l.3 12.7.3 12.7 5.4-6.7c8.7-11 20-18 33.9-21.2 8.3-1.8 27-1.3 35.6 1zM432 556v91h-60V465h60v91z" />
+                            </svg>
+                        </a>
+                        <a href="https://github.com/Jeffreyhung" target="_blank" class="contact_link">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="contact_icon">
+                                <path d="M410.2 362.1c-3.3 7.6-4.6 15.1-4.5 25.4.1 5.5.8 12.3 1.6 15.2l1.4 5.2-3.3 3.2c-4.3 4.1-9.7 15.2-12.4 25.4-4.1 15-3.8 45.4.6 61.2.6 2.1.3 2.3-3.7 2.4h-4.4l5 1.4c4.4 1.2 8.5 4.3 8.5 6.5 0 .4-5.3 1.1-11.7 1.5-16.3.9-36.9 3.3-48.8 5.6-10.4 2-24.8 5.9-24.2 6.6.3.2 4.4-.5 9.3-1.6 18.1-4 43.4-7.3 71.1-9.4 5.3-.4 5.3-.4 7.7 3.7 6.2 10.6 17.2 19.7 32.1 26.7 8.9 4.2 26.4 9.1 36.8 10.4 3.1.4 5.7 1 5.7 1.3 0 .3-1.5 2.2-3.4 4.2-3.5 3.6-7.9 11.4-9.1 16.1-.6 2.3-1.6 2.8-9.4 4.8-10.3 2.5-12.2 2.6-18.8.6-7-2.1-12-6-20.9-16.5-11.4-13.4-19.4-17.9-29.5-16.5-3.9.5-4.7 1-4.2 2.3.9 2.6 4.4 6.2 8.7 8.9 6.4 4.1 9.4 8.2 13.3 18.1 8.1 21 22.5 29.3 48.4 27.9l10.9-.6v17.4c0 21.2-.8 23.9-8.1 28.6-5.6 3.5-7.7 6.5-6 8.2 1.9 1.9 12.4 2 18.4.3 7.9-2.3 13-7.3 15.2-15.1 1.6-5.2 1.7-8 .9-22-1.4-25.7-.8-34.3 2.9-37.3.9-.8 1.2 1.3 1.3 9.1 0 5.6.2 19.4.5 30.7.5 22.9.1 25.2-5.6 34-1.9 3-3.5 6.5-3.5 7.7 0 2.1.4 2.3 5.4 2.3 3 0 6.7-.5 8.3-1.1 3.5-1.3 9-6.5 11-10.4 4.2-8 4.7-12 4.9-43.9.2-29 .7-34.6 3-32.3 1.3 1.3 2.3 16.7 2.4 37.2.1 30 2.7 40.6 11.8 47 3.5 2.4 5.5 3 11.2 3.3 6.7.4 7 .3 7-1.9 0-1.2-1.8-5-3.9-8.3-5.8-8.9-6.6-14.8-5.7-43.1.4-12.6 1.1-24.8 1.5-27l.7-4 1.6 4.2c2.7 6.6 3.1 12.8 1.8 30.5-1.3 18-.5 26.2 2.8 30.8 5.6 7.6 18.3 13.2 25.2 11.1 2.1-.6 4.4-1.8 5.1-2.7 1.2-1.4.6-2.3-4.9-7.3-8.9-8.1-9.4-10.3-9-44.8.3-31.3.1-33-7.8-43.6l-5.3-7.2 5.2-.8c23-3.6 36.6-8.2 48.6-16.1 7.9-5.3 16.7-14.4 20.2-21.1l2.3-4.3 7.1.4c14.9 1.1 35.7 3.7 55.7 7 21.5 3.5 23.5 3.8 22.6 2.9-2.3-2.3-39.7-8.5-63.3-10.4-20.6-1.8-21.5-2-21.5-4.1 0-3.1 3.1-4 15.7-4.6 12.9-.7 29.7.5 55.6 3.9 17 2.3 20 2.1 9.2-.7-11-2.8-35.5-4.6-64-4.6-6 0-11.6-.4-12.3-.9-1.1-.7-1.1-2.2.2-8.7 5.9-31.5-.4-64.6-15.6-81.9l-4-4.5 1.1-5c2.1-9.8.7-25.4-3.2-36.5-1.2-3.4-1.9-4-4.6-4.3-4.3-.4-17.8 2.3-23.6 4.8-2.5 1.1-7.1 3.7-10.3 5.8-11.9 8.1-15.8 8.7-31.2 5.2-6.4-1.5-12.3-2-24.2-2-16.9 0-26.3 1-40 4.1l-8.7 2-6.2-4.1c-13.1-9-26.5-14.4-38.5-15.6l-6.4-.7-1.8 4.4z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:jeffrey@jeffreyhung.com" target="_blank" class="contact_link">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="contact_icon">
+                                <path d="M279.5 357.9c1.1 1 53.9 41.8 117.3 90.5L512 537l115.3-88.6c63.3-48.7 116.1-89.5 117.2-90.5 1.9-1.9-2.2-1.9-232.5-1.9s-234.4 0-232.5 1.9zM265 512.7v141.8l80-80c44-44 80-80.3 80-80.6 0-.5-157.6-122.1-159.2-122.7-.4-.2-.8 63.5-.8 141.5zM678.5 432.1c-43.4 33.5-79.1 61.2-79.2 61.6-.2.5 35.7 36.8 79.7 80.8l80 80V512.7c0-77.9-.3-141.7-.7-141.6-.5 0-36.3 27.5-79.8 61z M358.9 586.6L277.5 668h469l-81.4-81.4-81.5-81.5-10 7.8c-5.6 4.3-20.7 16-33.6 26-12.9 9.9-24.5 18.4-25.7 18.7-1.3.3-3.3.3-4.5 0-1.3-.3-12.9-8.8-25.8-18.7-12.9-10-28-21.7-33.6-26l-10-7.8-81.5 81.5z" />
+                            </svg>
+                        </a>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-lg-2"></div>
                 </div>
             </div>
             <a class="profile_down" href="#work">
-                <center>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="down_icon" viewBox="0 0 24 24">
-                        <path class="contact_icon_path" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
-                    </svg>
-                </center>
+                <svg xmlns="http://www.w3.org/2000/svg" class="down_icon" viewBox="0 0 24 24">
+                    <path class="" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+                </svg>
             </a>
         </div>
         <hr>
@@ -196,7 +217,7 @@
                         <center> <img class="card-img-top" src="icon/infoseczip_logo.png"></center>
                     </div>
                     <h2>Podcast Host at InfoseDecompress </h2>
-                    <p><a class="podcast_link" href="https://infosecdecompress.com">Infosecdecompress.com</a></p>
+                    <p><a class="podcast_link" href="https://infosecdecompress.com">Infosecdecompress.com</a>&ensp;&ensp;|&ensp;&ensp;Since May 2020</p>
                     <p>
                         Hosting the first information security-focused Mandarin Podcast </br>
                         Research on topics and innovate ways to make cybersecurity understandable for everyone</br>
@@ -214,24 +235,24 @@
             <div class="content">
                 <div class="slide">
                     <div class="inner_slides">
-                        <div class="box">
+                        <div class="slider_box">
                             <div class="pitt_icon">
                                 <center> <img class="card-img-top" src="icon/pitt_logo.png"></center>
                             </div>
                             <h2>University of Pittsburgh</h2>
-                            <p>Master of Science in Information Science <br/>
-                            Specialize in Information Security | 2017-2019 | GPA: 3.87/4.00</p>
+                            <p>Master of Science in Information Science <br />
+                                Specialize in Information Security | 2017-2019 | GPA: 3.87/4.00</p>
                             <p>
                                 Relevant Coursework:<br />
-                                • Information Security and Privacy • Developing Secure System<br />
-                                 • Cryptography  • Network Security • Security Management & Computer Forensics<br />
+                                Information Security and Privacy • Developing Secure System<br />
+                                Cryptography • Network Security • Security Management & Computer Forensics
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="inner_slides">
-                        <div class="box">
+                        <div class="slider_box">
                             <div class="nchu_icon">
                                 <center> <img class="card-img-top" src="icon/nchu_logo.png"></center>
                             </div>
@@ -239,9 +260,8 @@
                             <p>Bachelor in Management of Information System | 2013-2017</p>
                             <p>
                                 Relevant Coursework:<br />
-                                • Information Security Practice<br />
-                                • Introduction to Computer Security<br />
-                                • Information Security Management<br />
+                                Introduction to Computer Security<br />
+                                Information Security Management • Information Security Practice
                             </p>
                         </div>
                     </div>
@@ -259,14 +279,14 @@
                     <div class="col-4">
                         <div class="cert_box">
                             <h2>Assocate of CISSP (Assocate of (ISC)2)</h2>
-                            <p>(ISC)2 | Since Jun 2019</p>
+                            <p>(ISC)2&ensp;&ensp;|&ensp;&ensp;Since Jun 2019</p>
                         </div>
                     </div>
                     &ensp;
                     <div class="col-4">
                         <div class="cert_box">
                             <h2>Secruity+ SY0-501</h2>
-                            <p>CompTIA | Since Sep 2018</p>
+                            <p>CompTIA&ensp;&ensp;|&ensp;&ensp;Since Sep 2018</p>
                         </div>
                     </div>
                     <div class="col-2"></div>
@@ -277,14 +297,14 @@
                     <div class="col-4">
                         <div class="cert_box">
                             <h2>IS-523 Resilient Accord</h2>
-                            <p>FEMA EMI | Since Apr 2018</p>
+                            <p>FEMA EMI&ensp;&ensp;|&ensp;&ensp;Since Apr 2018</p>
                         </div>
                     </div>
                     &ensp;
                     <div class="col-4">
                         <div class="cert_box">
                             <h2>CNSS 4011 4012 4013 4014 4015</h2>
-                            <p>CNSS | Since Dec 2018</p>
+                            <p>CNSS&ensp;&ensp;|&ensp;&ensp;Since Dec 2018</p>
                         </div>
                     </div>
                 </div>
@@ -296,8 +316,68 @@
                 Tools & Skills
             </div>
             <div class="content">
-                <div class="box">
-                    Skills
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-2">
+                        <div class="skill_box">
+                            <h2>Skills</h2>
+                            <p>
+                                SIEM <br />
+                                Vulnerability Management<br />
+                                Phishing Defense<br />
+                                Network Security<br />
+                                Risk Management<br />
+                                OWASP Top 10<br />
+                                IAM
+                            </p>
+                        </div>
+                    </div>
+                    &ensp;
+                    <div class="col-2">
+                        <div class="skill_box">
+                            <h2>Tools</h2>
+                            <p>
+                                Tenable.io <br />
+                                Rapid7 InsightIDR<br />
+                                Rapid7 InsightVM<br />
+                                Mimecast<br />
+                                Nmap<br />
+                                Wireshark<br />
+                                Metasploit
+                            </p>
+                        </div>
+                    </div>
+                    &ensp;
+                    <div class="col-2">
+                        <div class="skill_box">
+                            <h2>Coding</h2>
+                            <p>
+                                Python <br />
+                                Java<br />
+                                PowerShell<br />
+                                CMD<br />
+                                HTML<br />
+                                JavaScript<br />
+                                CSS
+                            </p>
+                        </div>
+                    </div>
+                    &ensp;
+                    <div class="col-2">
+                        <div class="skill_box">
+                            <h2>Systems</h2>
+                            <p>
+                                Linux <br />
+                                Windows<br />
+                                UNIX<br />
+                                Android<br />
+                                MySQL<br />
+                                Virtual Machines<br />
+                                Docker
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
                 </div>
             </div>
         </div>
@@ -308,20 +388,21 @@
             </div>
             <div class="content">
                 <div class="box">
+                    <h3>Manager of LinkedIn CyberSecurity Community</h3>
+                    <p>
+                        Manager at the <a href="https://www.linkedin.com/groups/3799371/">CyberSecurity Community Group on LinkedIn</a> with 15k+ members&ensp;&ensp;|&ensp;&ensp; Since Jul 2019
+                    </p>
                     <h3>President of International Student Organization</h3>
                     <p>
-                        School of Computing and Information, University of Pittsburgh<br/>
-                        Oct 2017 - Apr 2019
+                        School of Computing and Information, University of Pittsburgh&ensp;&ensp;|&ensp;&ensp;Oct 2017 - Apr 2019
                     </p>
                     <h3>President of Public Addressing and Lighting Club</h3>
                     <p>
-                        National Chung Hsing University, Taiwan<br/>
-                        Jul 2015 – Jun 2016
+                        National Chung Hsing University, Taiwan | Jul 2015&ensp;&ensp;|&ensp;&ensp;Jun 2016
                     </p>
                     <h3>Captain of Volleyball Team</h3>
                     <p>
-                        Department of Management Information Systems, NCHU, Taiwan<br/>
-                        Sep 2014 – Jun 2015
+                        Department of Management Information Systems, NCHU, Taiwan&ensp;&ensp;|&ensp;&ensp;Sep 2014 – Jun 2015
                     </p>
                 </div>
             </div>
