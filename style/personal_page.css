@@ -188,13 +188,19 @@ a:hover {
     .content {
         margin: 10px 10px 100px 10px;
     }
+
     .profile_content {
-    	width: 100%;
-    	padding: 0px;
-	    border: 0px;
+        width: 100%;
+        padding: 0px;
+        border: 0px;
     }
+
     .inner_slides {
         margin: 50px 30px;
+    }
+
+    .slide {
+        margin-top: 10px;
     }
 
     .slider_box {
@@ -268,12 +274,13 @@ a:hover {
     .skill_box {
         border: 2px solid #f9f9f9;
         margin: auto;
+        width: 70%;
         box-shadow: 7px 7px 0px #595959;
     }
 
     .infosec_icon {
         width: 80px;
-        height:80px;
+        height: 80px;
         margin: auto;
         margin-top: -50px;
     }
@@ -307,6 +314,11 @@ a:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         font-weight: bold;
+    }
+
+    .scrollable-content {
+        overflow: scroll;
+        margin: 10px 10px 100px 10px;
     }
 
 }

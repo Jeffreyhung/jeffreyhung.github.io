@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css" integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg==" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.extensions.min.js" integrity="sha512-2whoeiZFzA/g6YGH/nI7iXRQlMPYLECQYLFYKXxqigVzCQYAMvQ1v+oy8TYN5ccbyeyG55mjdMjI7CQSN25B0g==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/vendors/scrolloverflow.min.js" integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w==" crossorigin="anonymous"></script>
     <!-- End of FullPage.js Libraries -->
     <link rel="stylesheet" href="style/personal_page.css">
     <!-- <link rel="stylesheet" href="https://jeffreyhung.com/style/personal_page.css" integrity="sha384-iFYo08hiyDj3E0ll0QpqFUztRM+nEXMhJOineIow1Fq3HJUehRiaphRfzrkpl0Ez" crossorigin="anonymous"> -->
@@ -163,33 +164,33 @@
             </div>
             <div class="content">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-4">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4 col-12">
                         <div class="cert_box">
                             <h2>Assocate of CISSP (Assocate of (ISC)2)</h2>
                             <p>(ISC)2&ensp;&ensp;|&ensp;&ensp;Since Jun 2019</p>
                         </div>
                     </div>
                     &ensp;
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <div class="cert_box">
                             <h2>Secruity+ SY0-501</h2>
                             <p>CompTIA&ensp;&ensp;|&ensp;&ensp;Since Sep 2018</p>
                         </div>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-lg-2"></div>
                 </div>
                 <br />
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-4">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4 col-12">
                         <div class="cert_box">
                             <h2>IS-523 Resilient Accord</h2>
                             <p>FEMA EMI&ensp;&ensp;|&ensp;&ensp;Since Apr 2018</p>
                         </div>
                     </div>
                     &ensp;
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <div class="cert_box">
                             <h2>CNSS 4011 4012 4013 4014 4015</h2>
                             <p>CNSS&ensp;&ensp;|&ensp;&ensp;Since Dec 2018</p>
@@ -205,8 +206,8 @@
             </div>
             <div class="content">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-2">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2 col-12">
                         <div class="skill_box">
                             <h2>Skills</h2>
                             <p>
@@ -221,7 +222,7 @@
                         </div>
                     </div>
                     &ensp;
-                    <div class="col-2">
+                    <div class="col-lg-2 col-12">
                         <div class="skill_box">
                             <h2>Tools</h2>
                             <p>
@@ -236,7 +237,7 @@
                         </div>
                     </div>
                     &ensp;
-                    <div class="col-2">
+                    <div class="col-lg-2 col-12">
                         <div class="skill_box">
                             <h2>Coding</h2>
                             <p>
@@ -251,7 +252,7 @@
                         </div>
                     </div>
                     &ensp;
-                    <div class="col-2">
+                    <div class="col-lg-2 col-12">
                         <div class="skill_box">
                             <h2>Systems</h2>
                             <p>
@@ -265,7 +266,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-lg-2"></div>
                 </div>
             </div>
         </div>
@@ -309,7 +310,7 @@
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
         controlArrows: false,
-        normalScrollElements: '.scrollable-element',
+        scrollOverflow: true,
         scrollBar: false,
         anchors: ['profile', 'work', 'podcast', 'school', 'certs', 'skills', 'activites'],
     });
