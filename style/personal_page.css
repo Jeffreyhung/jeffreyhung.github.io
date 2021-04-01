@@ -26,11 +26,13 @@ a {
 
 a:hover {
     color: #9daba7;
-    ;
 }
-h2, h3 {
-	margin-top: 6px;
+
+h2,
+h3 {
+    margin-top: 6px;
 }
+
 .section {
     text-align: center;
     font-size: 3em;
@@ -105,12 +107,14 @@ h2, h3 {
     margin: auto;
     box-shadow: 7px 7px 0px #595959;
 }
+
 .experience_box {
     border: 2px solid #f9f9f9;
     width: 60%;
     margin: auto;
     box-shadow: 7px 7px 0px #595959;
 }
+
 .cert_box {
     border: 2px solid #f9f9f9;
     margin: auto;
@@ -273,14 +277,16 @@ h2, h3 {
         box-shadow: 7px 7px 0px #595959;
         padding: 5px;
     }
+
     .experience_box {
         border: 2px solid #f9f9f9;
         width: 90%;
         margin: auto;
-        margin-top:28px;
+        margin-top: 28px;
         box-shadow: 7px 7px 0px #595959;
         padding: 5px;
     }
+
     .cert_box {
         border: 2px solid #f9f9f9;
         margin: auto;
@@ -335,6 +341,7 @@ h2, h3 {
     }
 
 }
+
 /*      綠底：#cfdbdb
         綠字：#9daba7
         黑字：#3e3e3e
