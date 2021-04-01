@@ -28,14 +28,16 @@ a:hover {
     color: #9daba7;
     ;
 }
-
+h2, h3 {
+	margin-top: 6px;
+}
 .section {
     text-align: center;
     font-size: 3em;
 }
 
 .content {
-    margin: 100px 100px 80px 100px;
+    margin: 100px 100px 100px 100px;
 }
 
 .inner_slides {
@@ -103,7 +105,12 @@ a:hover {
     margin: auto;
     box-shadow: 7px 7px 0px #595959;
 }
-
+.experience_box {
+    border: 2px solid #f9f9f9;
+    width: 60%;
+    margin: auto;
+    box-shadow: 7px 7px 0px #595959;
+}
 .cert_box {
     border: 2px solid #f9f9f9;
     margin: auto;
@@ -186,7 +193,7 @@ a:hover {
     }
 
     .content {
-        margin: 10px 10px 100px 10px;
+        margin: 10px 10px 80px 10px;
     }
 
     .profile_content {
@@ -208,6 +215,7 @@ a:hover {
         width: 100%;
         margin: auto;
         box-shadow: 7px 7px 0px #595959;
+        padding: 5px;
     }
 
     .fp-controlArrow.fp-prev {
@@ -263,19 +271,29 @@ a:hover {
         width: 90%;
         margin: auto;
         box-shadow: 7px 7px 0px #595959;
+        padding: 5px;
     }
-
+    .experience_box {
+        border: 2px solid #f9f9f9;
+        width: 90%;
+        margin: auto;
+        margin-top:28px;
+        box-shadow: 7px 7px 0px #595959;
+        padding: 5px;
+    }
     .cert_box {
         border: 2px solid #f9f9f9;
         margin: auto;
         box-shadow: 7px 7px 0px #595959;
+        padding: 5px;
     }
 
     .skill_box {
         border: 2px solid #f9f9f9;
-        margin: auto;
+        margin-top: 00px;
         width: 70%;
         box-shadow: 7px 7px 0px #595959;
+        padding: 5px;
     }
 
     .infosec_icon {
@@ -316,9 +334,9 @@ a:hover {
         font-weight: bold;
     }
 
-    .scrollable-content {
-        overflow: scroll;
-        margin: 10px 10px 100px 10px;
-    }
-
 }
+/*      綠底：#cfdbdb
+        綠字：#9daba7
+        黑字：#3e3e3e
+        Icon：#91a9a2
+        白底：#f9f9f9*/
