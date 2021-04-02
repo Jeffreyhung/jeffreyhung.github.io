@@ -159,8 +159,9 @@ h3 {
 }
 
 .profile_icon {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
 }
 
 .content_header {
