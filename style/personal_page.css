@@ -110,8 +110,8 @@ h3 {
 
 .experience_box {
     border: 2px solid #f9f9f9;
-    width: 60%;
     margin: auto;
+    width: 60%;
     box-shadow: 7px 7px 0px #595959;
 }
 
@@ -119,6 +119,11 @@ h3 {
     border: 2px solid #f9f9f9;
     margin: auto;
     box-shadow: 7px 7px 0px #595959;
+}
+
+.skill_row {
+    width: 70%;
+    margin: auto;
 }
 
 .skill_box {
@@ -168,32 +173,10 @@ h3 {
 @media only screen and (max-width: 768px) {
     hr {
         width: 80%;
-        margin: auto;
-        border: 0.5px solid #f9f9f9;
-    }
-
-    body {
-        background-color: #3e3e3e;
-        color: #f9f9f9;
     }
 
     p {
         font-size: 17px;
-    }
-
-    a {
-        text-decoration: none;
-        color: #f9f9f9;
-    }
-
-    a:hover {
-        color: #9daba7;
-        ;
-    }
-
-    .section {
-        text-align: center;
-        font-size: 3em;
     }
 
     .content {
@@ -215,135 +198,59 @@ h3 {
     }
 
     .slider_box {
-        border: 2px solid #f9f9f9;
         width: 100%;
-        margin: auto;
-        box-shadow: 7px 7px 0px #595959;
         padding: 5px;
-    }
-
-    .fp-controlArrow.fp-prev {
-        left: 0;
-    }
-
-    .fp-controlArrow.fp-next {
-        right: 0;
-    }
-
-    .profile_down {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 20px;
-    }
-
-    .back_to_top {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -10px;
     }
 
     .arrow_icon {
         width: 100px;
-        height: 80px;
-        margin: auto;
-        fill: white;
     }
 
     .contact_icon {
         height: 80px;
         width: 80px;
-        fill: white;
-    }
-
-    .profile_down .arrow_icon:hover {
-        fill: #9daba7;
-    }
-
-    .back_to_top .arrow_icon:hover {
-        fill: #9daba7;
-    }
-
-    .contact_link .contact_icon:hover {
-        fill: #9daba7;
-        ;
     }
 
     .box {
-        border: 2px solid #f9f9f9;
         width: 90%;
-        margin: auto;
-        box-shadow: 7px 7px 0px #595959;
         padding: 5px;
     }
 
     .experience_box {
-        border: 2px solid #f9f9f9;
         width: 90%;
-        margin: auto;
         margin-top: 28px;
-        box-shadow: 7px 7px 0px #595959;
         padding: 5px;
     }
 
     .cert_box {
-        border: 2px solid #f9f9f9;
-        margin: auto;
-        box-shadow: 7px 7px 0px #595959;
         padding: 5px;
+        width: 90%;
+    }
+
+    .skill_row {
+        width: 100%;
     }
 
     .skill_box {
-        border: 2px solid #f9f9f9;
-        margin-top: 00px;
-        width: 70%;
-        box-shadow: 7px 7px 0px #595959;
+        width: 90%;
         padding: 5px;
     }
 
     .infosec_icon {
         width: 80px;
         height: 80px;
-        margin: auto;
         margin-top: -50px;
     }
 
     .mmr_icon {
         width: 100px;
-        margin: auto;
         margin-top: -40px;
-    }
-
-    .pitt_icon {
-        width: 120px;
-        height: 120px;
-        margin: auto;
-        margin-top: -60px;
-    }
-
-    .nchu_icon {
-        width: 150px;
-        margin: auto;
-        margin-top: -40px;
-    }
-
-    .profile_icon {
-        width: 180px;
-        height: 180px;
     }
 
     .content_header {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-weight: bold;
     }
 
 }
-
-/*      綠底：#cfdbdb
-        綠字：#9daba7
-        黑字：#3e3e3e
-        Icon：#91a9a2
-        白底：#f9f9f9*/
