@@ -132,11 +132,22 @@ h3 {
     box-shadow: 7px 7px 0px #595959;
 }
 
-.infosec_icon {
-    width: 100px;
-    height: 100px;
+.infosec_icon_box {
     margin: auto;
     margin-top: -60px;
+}
+
+.infosec_icon {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius:50%;
+}
+
+.mmr_icon_box {
+    width: 150px;
+    margin: auto;
+    margin-top: -50px;
 }
 
 .mmr_icon {
@@ -145,23 +156,33 @@ h3 {
     margin-top: -50px;
 }
 
+.pitt_icon_box {
+    margin: auto;
+    margin-top: -60px;
+}
+
 .pitt_icon {
     width: 120px;
     height: 120px;
     margin: auto;
-    margin-top: -60px;
+    border-radius:50%;
+}
+
+.nchu_icon_box {
+    margin: auto;
+    margin-top: -40px;
 }
 
 .nchu_icon {
     width: 150px;
     margin: auto;
-    margin-top: -40px;
 }
 
 .profile_icon {
     width: 200px;
     height: 200px;
     margin: auto;
+    border-radius:50%;
 }
 
 .content_header {
@@ -240,12 +261,32 @@ h3 {
     .infosec_icon {
         width: 80px;
         height: 80px;
-        margin-top: -50px;
+    }
+    
+    .infosec_icon_box {
+        margin-top:  -40px;
     }
 
-    .mmr_icon {
+    .mmr_icon_box {
         width: 100px;
-        margin-top: -40px;
+        margin-top: -45px;
+    }
+
+    .pitt_icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .pitt_icon_box {
+        margin-top: -45px;
+    }
+
+    .nchu_icon_box {
+        margin-top: -45px;
+    }
+
+    .nchu_icon {
+        width: 80px;
     }
 
     .content_header {
