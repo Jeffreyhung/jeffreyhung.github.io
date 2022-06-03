@@ -21,13 +21,13 @@
     window.onload = function() {
       var link;
       const dog_api = 'https://random.dog/woof.json';
-      const cat_api = 'https://aws.random.cat/meow';
+      const cat_api = 'https://api.thecatapi.com/v1/images/search';
       random_number = Math.round(Math.random());
       if (random_number) {
         link = (JSON.parse(Get(dog_api))).url;
         document.getElementById('cuteness_announcement').innerHTML = "By the way, here's a cute dog :)";
       }else {
-        link = (JSON.parse(Get(cat_api))).file;
+        link = (JSON.parse(Get(cat_api)))[0].url;
         document.getElementById('cuteness_announcement').innerHTML = "By the way, here's a cute cat :)";
       }
       document.getElementById('cute').innerHTML = '<img src=' + link + ' style="width:500px;">';
